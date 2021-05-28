@@ -1,4 +1,4 @@
-/// <reference path="babylon.js" />
+﻿/// <reference path="babylon.js" />
 
 var canvas = document.getElementById("renderCanvas");
 
@@ -95,7 +95,7 @@ var loadScene = function (name, incremental, sceneLocation, then) {
     //loads from local file
     //BABYLON.SceneLoader.Load(sceneLocation + name + "/", name + incremental + ".babylon", engine, function (newScene) {
     //loads from remote URL
-    BABYLON.SceneLoader.Load("https://raw.githubusercontent.com/rorywalsh/LabDemo/master/Scenes/Heart/", "Heart.babylon", engine, function (newScene) {
+    BABYLON.SceneLoader.Load("https://raw.githubusercontent.com/shinnymouse/Lab/main/Scenes/Heart/", "Heart.babylon", engine, function (newScene) {
         scene = newScene;
         scene.executeWhenReady(function () {
             canvas.style.opacity = 1;
