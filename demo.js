@@ -212,7 +212,7 @@
                     volume: 0.4,
                     spatialSound: true,
                     distanceModel: "exponential",
-                    rolloffFactor: 2
+                    rolloffFactor: 1
                 });
                 var tapemachine = new BABYLON.Sound("Tapemachine2", "./build/assets/tapemachine2.ogg", scene, null, {
                     loop: true,
@@ -220,7 +220,7 @@
                     volume: 0.4,
                     spatialSound: true,
                     distanceModel: "exponential",
-                    rolloffFactor: 2
+                    rolloffFactor: 1
                 });
                 var tapemachine = new BABYLON.Sound("Tapemachine2", "./build/assets/tapemachine3.ogg", scene, null, {
                     loop: true,
@@ -228,7 +228,7 @@
                     volume: 0.4,
                     spatialSound: true,
                     distanceModel: "exponential",
-                    rolloffFactor: 2
+                    rolloffFactor: 1
                 });
                 var tapemachine = new BABYLON.Sound("Tapemachine2", "./build/assets/tapemachine4.ogg", scene, null, {
                     loop: true,
@@ -236,7 +236,7 @@
                     volume: 0.4,
                     spatialSound: true,
                     distanceModel: "exponential",
-                    rolloffFactor: 2
+                    rolloffFactor: 1
                 });
                 tapemachine.setPosition(new BABYLON.Vector3(-1.76, 1.50, -2.55));
                 tapemachine.setPosition(new BABYLON.Vector3(-1.76, .5, -2.55));
